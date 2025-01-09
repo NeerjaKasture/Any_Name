@@ -19,7 +19,7 @@ def func(n):
     print("This is a function")
     print(f"The factors of the number {n} are:")
     for f in range(1, n+1):
-        if(n % f == 0):
+        if (n % f) == 0:
             print(f)
 func(i)
 
@@ -32,8 +32,8 @@ def factorial(x):
     This factorial function finds the factorial of given number. 
     """
     fact = 1
-    for i in range(1, x + 1):
-        fact *= i
+    for k in range(1, x + 1):
+        fact *= k
     return fact
 
 print("Factorial of numbers from 1 to 5:")
